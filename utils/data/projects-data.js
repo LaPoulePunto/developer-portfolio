@@ -1,42 +1,80 @@
 export const projectsData = [
-    {
-        id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
-        code: '',
-        demo: '',
-    },
-    {
-        id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
-        role: 'Full Stack Developer',
-        code: '',
-        demo: '',
-    },
-    {
-        id: 3,
-        name: 'AI Powered Real Estate',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
-        code: '',
-        role: 'Full Stack Developer',
-        demo: '',
-    },
-    {
-        id: 4,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
-        code: '',
-        demo: '',
-        role: 'Full Stack Developer',
-    }
+  {
+    id: 1,
+    name: "Shopify Integration & Analytics Platform",
+    description:
+      "I developed a comprehensive Shopify integration platform that helps merchants understand their return reasons and provides product optimization recommendations. The system uses Shopify's Admin API, Webhooks, and GraphQL to interact directly with merchants' marketplaces in real-time. It features an intelligent chatbot that can modify product data with merchant consent, analyze return patterns, and suggest improvements based on customer feedback and sales data.",
+    tools: [
+      "Shopify Admin API",
+      "Shopify Webhooks",
+      "GraphQL",
+      "Node.js",
+      "React",
+      "OPEN API",
+      "Real-time Analytics",
+    ],
+    role: "Full Stack Developer",
+    code: "",
+    demo: "",
+  },
+  {
+    id: 2,
+    name: "ERP Migration & Data Integrity Platform",
+    description:
+      "I developed a comprehensive data integrity verification system for HOPTEAM's ERP migration project. The platform ensures data reliability during the transition from legacy systems to modern ERP solutions. I created automated scripts using Python and Pandas to validate data integrity across 1000+ database tables, implemented SQL Server and MySQL integration, and built a web-based toolbox for data management and supplier catalog control.",
+    tools: [
+      "Python",
+      "Pandas",
+      "SQL Server",
+      "MySQL",
+      "Docker",
+      "PHP",
+      "Symfony",
+      "Data Validation",
+      "ETL Processes",
+    ],
+    role: "Data Engineer & Full Stack Developer",
+    code: "",
+    demo: "",
+  },
+  {
+    id: 3,
+    name: "Hospital Planning Management System",
+    description:
+      "I developed a comprehensive hospital planning management system for CHU Sébastopol's rehabilitation department as a fictional project with a team of 5 developers. The application manages appointments for healthcare professionals (physiotherapists, occupational therapists) and patients. Built with Symfony framework, it features interactive calendar management with FullCalendar, automated appointment scheduling, prescription generation, and user authentication. Deployed on OpenNebula virtual machine with PHP 8.1 and MySQL. The project was developed using SCRUM methodology with weekly sprints.",
+    tools: [
+      "Symfony",
+      "PHP 8.1",
+      "MySQL",
+      "FullCalendar",
+      "Bootstrap",
+      "Codeception",
+      "OpenNebula",
+      "SCRUM Methodology",
+    ],
+    role: "Full Stack Developer & Scrum Master",
+    code: "",
+    demo: "",
+  },
+  {
+    id: 4,
+    name: "Interactive World Geography Trainer",
+    description:
+      "My first project is an interactive world geography training website. The goal is to connect different countries chosen randomly or arbitrarily and link them through their borders. Developed with Vite for fast development and D3.js library for interactive map visualization. Users can explore countries, learn about borders, and test their geographical knowledge through an engaging interface.",
+    tools: [
+      "Vite",
+      "D3.js",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Interactive Maps",
+      "Geography API",
+    ],
+    role: "Frontend Developer",
+    code: "",
+    demo: "",
+  },
 ];
-
 
 // Do not remove any property.
 // Leave it blank instead as shown below
