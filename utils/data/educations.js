@@ -1,20 +1,15 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    title:
+      "Bachelor of Technology, IT - Data Modeling and Database Administration",
+    duration: "Sept 2023 - June 2026",
+    institution: "IUT de Reims-Châlons-Charleville",
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
+    title: "General Baccalaureate",
+    duration: "Sept 2020 - June 2023",
+    institution: "Lycée Napoléon",
   },
-  {
-    id: 3,
-    title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
-  }
-]
+];

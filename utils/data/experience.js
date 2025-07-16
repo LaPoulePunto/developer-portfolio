@@ -1,20 +1,26 @@
 export const experiences = [
   {
     id: 1,
-    title: 'Software Engineer I',
-    company: "Teton Private Ltd.",
-    duration: "(Jan 2022 - Present)"
+    title: "Maintenance Worker",
+    company: "Louise Marie Care Home - Le Sap (Orne)",
+    duration: "(Summer 2022)",
   },
   {
     id: 2,
-    title: "FullStack Developer",
-    company: "Fiverr (freelance)",
-    duration: "(Jun 2021 - Jan 2022)"
+    title: "Maintenance Worker",
+    company: "Le Grand Jardin Nursing Home - Le Sap",
+    duration: "(Summer 2023)",
   },
   {
     id: 3,
-    title: "Self Employed",
-    company: "Code and build something in everyday.",
-    duration: "(Jan 2018 - Present)"
-  }
-]
+    title: "Maintenance Worker",
+    company: "Le Grand Jardin Nursing Home - Le Sap",
+    duration: "(August 2024)",
+  },
+  {
+    id: 4,
+    title: "Math Tutor",
+    company: "Former High School - High School Level",
+    duration: "(2023 - Present)",
+  },
+];
