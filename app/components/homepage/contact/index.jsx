@@ -61,7 +61,7 @@ function ContactSection() {
             Have a project in mind? Want to discuss a collaboration?
             <br />
             <span className="text-pink-400 font-semibold">
-              Don't hesitate to contact me by email
+              Don&apos;t hesitate to contact me by email
             </span>
           </p>
 

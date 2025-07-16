@@ -264,3 +264,119 @@ npm install -g next
 This installs Next.js globally
 
 then do the usual `npm run dev`
+
+---
+
+# Portfolio Développeur - Oscar Neveux
+
+Portfolio personnel développé avec Next.js, React et Tailwind CSS.
+
+## 🚀 Déploiement
+
+### Option 1: Vercel (Recommandé)
+
+1. **Préparer le projet :**
+
+   ```bash
+   npm run build
+   ```
+
+2. **Déployer sur Vercel :**
+
+   - Créez un compte sur [vercel.com](https://vercel.com)
+   - Connectez votre repo GitHub
+   - Configurez les variables d'environnement :
+     - `EMAIL_ADDRESS` : Votre email Gmail
+     - `GMAIL_PASSKEY` : Mot de passe d'application Gmail
+     - `TELEGRAM_BOT_TOKEN` : Token de votre bot Telegram
+     - `TELEGRAM_CHAT_ID` : ID de votre chat Telegram
+
+3. **Configuration Gmail :**
+   - Activez l'authentification à 2 facteurs
+   - Générez un mot de passe d'application
+   - Utilisez ce mot de passe dans `GMAIL_PASSKEY`
+
+### Option 2: Netlify
+
+1. Connectez votre repo GitHub sur Netlify
+2. Configurez les variables d'environnement
+3. Build command : `npm run build`
+4. Publish directory : `.next`
+
+### Option 3: VPS
+
+1. **Installer les dépendances :**
+
+   ```bash
+   npm install
+   npm run build
+   ```
+
+2. **Configurer PM2 :**
+
+   ```bash
+   npm install -g pm2
+   pm2 start npm --name "portfolio" -- start
+   ```
+
+3. **Configurer Nginx :**
+   ```nginx
+   server {
+       listen 80;
+       server_name votre-domaine.com;
+
+       location / {
+           proxy_pass http://localhost:3000;
+           proxy_http_version 1.1;
+           proxy_set_header Upgrade $http_upgrade;
+           proxy_set_header Connection 'upgrade';
+           proxy_set_header Host $host;
+           proxy_cache_bypass $http_upgrade;
+       }
+   }
+   ```
+
+## 🔧 Variables d'environnement
+
+Créez un fichier `.env.local` :
+
+```env
+EMAIL_ADDRESS=votre-email@gmail.com
+GMAIL_PASSKEY=votre-mot-de-passe-application
+TELEGRAM_BOT_TOKEN=votre-token-bot
+TELEGRAM_CHAT_ID=votre-chat-id
+```
+
+## 📦 Scripts disponibles
+
+- `npm run dev` : Démarre le serveur de développement
+- `npm run build` : Construit l'application pour la production
+- `npm run start` : Démarre le serveur de production
+- `npm run lint` : Lance le linter
+
+## 🎨 Technologies utilisées
+
+- **Framework :** Next.js 15
+- **UI :** React 19, Tailwind CSS
+- **Animations :** Lottie React
+- **Email :** Nodemailer
+- **Notifications :** Telegram Bot API
+- **Styling :** SCSS, Tailwind CSS
+
+## 📱 Fonctionnalités
+
+- Design responsive moderne
+- Animations fluides avec Lottie
+- Formulaire de contact avec notifications Telegram
+- Sections : Accueil, À propos, Compétences, Projets, Expérience, Éducation, Contact
+- Optimisé pour les performances
+
+## 🌐 Déploiement recommandé
+
+**Vercel** est la meilleure option car :
+
+- Optimisations Next.js intégrées
+- Déploiement automatique
+- Variables d'environnement sécurisées
+- Domaine gratuit avec SSL
+- Excellentes performances
