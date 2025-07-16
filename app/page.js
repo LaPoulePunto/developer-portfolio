@@ -33,9 +33,9 @@ export default async function Home() {
     <div suppressHydrationWarning>
       <HeroSection />
       <AboutSection />
-      <Education />
       <Experience />
       <Skills />
+      <Education />
       <Projects />
       <Blog blogs={blogs} />
       <ContactSection />
