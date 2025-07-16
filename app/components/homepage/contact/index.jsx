@@ -37,34 +37,16 @@ function ContactSection() {
               <span>{personalData.address}</span>
             </p>
           </div>
-          <div className="mt-8 lg:mt-16 flex items-center gap-5 lg:gap-10">
+          <div className="flex items-center gap-5 flex-wrap justify-center mt-4">
             <Link target="_blank" href={personalData.github}>
               <IoLogoGithub
-                className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+                className="bg-galaxy-800 p-3 rounded-full hover:bg-neon hover:text-galaxy-900 hover:scale-110 transition-all duration-300 text-neon cursor-pointer shadow-lg"
                 size={48}
               />
             </Link>
             <Link target="_blank" href={personalData.linkedIn}>
               <BiLogoLinkedin
-                className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
-                size={48}
-              />
-            </Link>
-            <Link target="_blank" href={personalData.twitter}>
-              <FaXTwitter
-                className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
-                size={48}
-              />
-            </Link>
-            <Link target="_blank" href={personalData.stackOverflow}>
-              <FaStackOverflow
-                className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
-                size={48}
-              />
-            </Link>
-            <Link target="_blank" href={personalData.facebook}>
-              <FaFacebook
-                className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+                className="bg-galaxy-800 p-3 rounded-full hover:bg-neon hover:text-galaxy-900 hover:scale-110 transition-all duration-300 text-neon cursor-pointer shadow-lg"
                 size={48}
               />
             </Link>

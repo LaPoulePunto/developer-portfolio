@@ -8,9 +8,6 @@ export const personalData = {
   phone: "+8801608797655",
   address: "France, Normandie ",
   github: "https://github.com/LaPoulePunto",
-  facebook: "https://www.facebook.com/abusaid.riyaz/",
   linkedIn: "https://www.linkedin.com/in/oscar-neveux-4a4967257/",
-  twitter: "https://twitter.com/said7388",
-  stackOverflow: "https://stackoverflow.com/users/16840768/abu-said",
   devUsername: "LaPoulePunto",
 };
