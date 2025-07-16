@@ -2,10 +2,7 @@ import { personalData } from "@/utils/data/personal-data";
 import Image from "next/image";
 import Link from "next/link";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
-import { FaFacebook, FaTwitterSquare } from "react-icons/fa";
-import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
-import { SiLeetcode } from "react-icons/si";
 
 function HeroSection() {
   return (
@@ -23,7 +20,7 @@ function HeroSection() {
           <h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
             Hello,
             <br />
-            I’m <span className="text-pink-500">{personalData.name}</span>,
+            I'm <span className="text-pink-500">{personalData.name}</span>,
             <br />
             <span className="text-[#16f2b3]">{personalData.designation}</span>
           </h1>
