@@ -18,6 +18,14 @@ function Footer() {
               href="https://www.linkedin.com/in/abu-said-bd/"
               className="text-[#16f2b3]"
             >
+              Abu Said
+            </Link>
+            , adapted by{" "}
+            <Link
+              target="_blank"
+              href="https://www.linkedin.com/in/oscar-neveux-4a4967257/"
+              className="text-[#16f2b3]"
+            >
               Oscar Neveux
             </Link>
           </p>
