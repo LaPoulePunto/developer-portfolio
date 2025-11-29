@@ -2,14 +2,15 @@ export const educations = [
   {
     id: 1,
     title:
-      "Bachelor of Technology, IT - Data Modeling and Database Administration",
-    duration: "Sept 2023 - June 2026",
-    institution: "IUT de Reims-Châlons-Charleville",
+      "Baccalauréat en Informatique - Intelligence artificielle appliquée",
+    duration: "2025 - 2026",
+    institution: "Université du Québec à Chicoutimi, Saguenay (QC), Canada",
   },
   {
     id: 2,
-    title: "General Baccalaureate",
-    duration: "Sept 2020 - June 2023",
-    institution: "Lycée Napoléon",
+    title:
+      "Bachelor universitaire de technologie — Administration, Gestion & Exploitation des Données",
+    duration: "2023 - 2026",
+    institution: "Institut universitaire de technologie Reims-Châlons-Charleville, Reims, France",
   },
 ];
